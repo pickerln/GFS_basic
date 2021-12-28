@@ -3,3 +3,4 @@ math
 matplotlib
 random
 time
+setuptools

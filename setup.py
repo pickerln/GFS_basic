@@ -5,23 +5,17 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='gfs_basic',
-    version=attr: gfs_basic.__version__
-    author = Lynn Pickering
-    author_email = pickerln@mail.uc.edu,
+    version='1.0.0',
+    author = 'Lynn Pickering',
+    author_email = 'pickerln@mail.uc.edu',
     description='Basic genetic fuzzy systems code',
-    long_description=file: README.md
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url='https://github.com/pickerln/GFS_basic',
+    project_urls = {
+            "Bug Tracker": "https://github.com/pickerln/gfs_basic/issues"
+        },
     license='MIT',
     packages=['gfs_basic'],
-    
-    [options]
-    zip_safe = True
-    package_dir=
-        =src
-    packages = find:
-    python_requires = >=3.6
-
-    [options.packages.find]
-    where=src
 )
 
