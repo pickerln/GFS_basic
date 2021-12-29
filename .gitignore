@@ -110,8 +110,8 @@ ENV/
 env.bak/
 venv.bak/
 
- **/.idea/workspace.xml 
- **/.idea/tasks.xml
+# Jetbrains project settings
+.idea
 
 # Spyder project settings
 .spyderproject
