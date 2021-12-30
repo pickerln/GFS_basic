@@ -3,7 +3,7 @@ import matplotlib.lines as mlines
 import math
 import numpy as np
 
-from Fuzzy_Logic_Toolbox.Simple_FISs import split_vector_given
+from Simple_FISs import split_vector_given
 
 
 def get_plot_points(fuzzy_system):

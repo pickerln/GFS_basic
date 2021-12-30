@@ -4,7 +4,7 @@
 import numpy as np
 import math
 
-from Fuzzy_Logic_Toolbox.FuzzyToolbox import memb_tri as membership_of_triangle
+from FuzzyToolbox import memb_tri as membership_of_triangle
 
 
 def print_indexes(fuzzy_system_info):
